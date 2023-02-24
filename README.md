@@ -67,7 +67,7 @@ INFO:__main__:{'JOB': [['兖州牧', 9]], 'LOC': [['雍丘', 17], ['兖州', 43]
 进入到pytorch_GlobalPointer_triple_extraaction，执行：
 
 ```python
-!python main.py \
+python main.py \
 --bert_dir="../model_hub/chinese-bert-wwm-ext/" \
 --data_dir="./data/guwen/" \
 --log_dir="./logs/" \
